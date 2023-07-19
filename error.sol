@@ -11,7 +11,7 @@ contract error{
 
     function revertExample(uint _value) public pure {
         if (_value >= 10 && _value<= 100) {
-            revert("Input must be greater than 10");
+            revert("This is an example of revert.");
         }
     }
 
